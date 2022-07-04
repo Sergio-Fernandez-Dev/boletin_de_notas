@@ -1,6 +1,19 @@
-<script></script>
+<script>
+import SideForm from '../components/SideForm.vue';
+import GradesList from '../components/GradesList.vue';
+
+export default {
+  components: {
+    SideForm,
+    GradesList,
+  },
+};
+</script>
 <template>
-  <div></div>
+  <main>
+    <SideForm />
+    <GradesList />
+  </main>
 </template>
 
 <style></style>

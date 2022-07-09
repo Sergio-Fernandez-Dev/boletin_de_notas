@@ -1,13 +1,6 @@
-<script>
+<script setup>
 import SideForm from '../components/SideForm.vue';
 import GradesList from '../components/GradesList.vue';
-
-export default {
-  components: {
-    SideForm,
-    GradesList,
-  },
-};
 </script>
 <template>
   <main>
@@ -16,4 +9,8 @@ export default {
   </main>
 </template>
 
-<style></style>
+<style scoped>
+main {
+  min-height: 50vh;
+}
+</style>
